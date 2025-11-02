@@ -1,0 +1,16 @@
+{
+"Version": "2012-10-17",
+"Statement": [
+{
+"Sid": "EC2SpecificInstance",
+"Effect": "Allow",
+"Action": "ec2:*",
+"Resource": [
+"arn:aws:ec2:<region>:<account-id>:instance/<instance-id>",
+"arn:aws:ec2:<region>:<account-id>:volume/*",
+"arn:aws:ec2:<region>:<account-id>:network-interface/*",
+"arn:aws:ec2:<region>:<account-id>:key-pair/*"
+]
+}
+]
+}

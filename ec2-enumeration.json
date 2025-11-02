@@ -1,0 +1,25 @@
+
+{
+ "Version": "2012-10-17",
+ "Statement": [
+  {
+   "Sid": "VisualEditor1",
+   "Effect": "Allow",
+   "Action": "ec2:*",
+   "Resource": "arn:aws:ec2:::cybr-pacu-lab-example"
+  },
+  {
+       "Sid": "Statement1",
+       "Effect": "Allow",
+       "Action": [
+           "iam:Get*",
+           "iam:List*",
+           "iam:Put*",
+           "iam:AttachRolePolicy",
+           "iam:SimulateCustomPolicy",
+           "iam:SimulatePrincipalPolicy"
+       ],
+       "Resource": "*"
+        }
+ ]
+}
