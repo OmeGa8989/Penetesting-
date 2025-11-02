@@ -1,7 +1,5 @@
 # Pacu EC2 Penetration Testing and IAM policy
 
-> Repository: pacu-ec2-test-plan
-
 ## Overview
 
 This repository contains a concise, auditable test plan and a recommended IAM policy to support **approved, limited Pacu testing** against a single EC2 test instance. The goal is to enable safe enumeration and basic non-destructive testing while following the principle of least privilege.
