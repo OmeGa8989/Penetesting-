@@ -113,4 +113,4 @@ MIT License — see LICENSE file.
 
 ## Contributors
 
-* `Adhyan Aditya <adhyanaditya88@gmail.com>` — test plan and policy templates
+* `Adhyan Aditya <adhyanaditya88@gmail.com>`
